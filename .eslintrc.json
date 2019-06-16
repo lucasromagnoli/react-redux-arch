@@ -13,6 +13,11 @@
     ],
     "import/prefer-default-export": "off",
     "react/jsx-one-expression-per-line": "off",
-    "react/prefer-stateless-function": [0, { "ignorePureComponents": false }]
+    "react/prefer-stateless-function": [0, { "ignorePureComponents": false }],
+    "react/destructuring-assignment": [
+      0,
+      "always",
+      { "ignoreClassFields": true }
+    ]
   }
 }
